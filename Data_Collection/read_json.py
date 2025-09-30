@@ -14,6 +14,6 @@ print(data)
 df = pd.read_json('data.json', orient='records', encoding='utf-8', lines=False)
 '''
 orient : JSON 데이터가 어떤 형식으로 저장되어 있는지 알려주는 옵션.
-lines : JSON 파일이 여러 줄인지 여부를 지정.
+lines : JSON 데이터(파일)이 여러 줄인지 여부를 지정.
 '''
 print(df)
