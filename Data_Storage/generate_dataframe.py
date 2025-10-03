@@ -1,4 +1,6 @@
 import pandas as pd
+import os
+os.chdir("c:/Data-Analysis-Study/Data_Storage/data")
 
 data = {
     "이름": ["김철수", "이영희", "박민수", "최지훈", "정소희"],
@@ -8,13 +10,13 @@ data = {
     "동아리": ["프로그래밍", "독서토론", "로봇공학", "봉사활동", "음악감상"]
 }
 
-# dictionary -> DataFrame 생성.
+# dictionary -> (변환) DataFrame 생성.
 df_dict = pd.DataFrame.from_dict(data)
 
-# csv -> DataFrame 생성.
+# csv -> (변환) DataFrame 생성.
 df_csv = pd.read_csv('students.csv')
 
-# json -> DataFrame 생성.
+# json -> (변환) DataFrame 생성.
 df_json = pd.read_json('students.json')
 
 # 세 가지 비교

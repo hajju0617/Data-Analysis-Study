@@ -10,7 +10,7 @@ data = {
     'watch_rate': [0.95, 0.87, 0.99, 0.80, 0.93]
 }
 
-# data를 이용해서 DataFream 생성.
+# data를 이용해서 DataFrame 생성.
 df = pd.DataFrame(data)
 print('df = \n', df)
 

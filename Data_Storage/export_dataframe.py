@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-os.chdir('C:/Data-Analysis/Data_Storage/data')
+os.chdir('C:/Data-Analysis-Study/Data_Storage/data')
 
 data = {
     "이름": ["김철수", "이영희", "박민수", "최지훈", "정소희"],
